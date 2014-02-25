@@ -102,8 +102,8 @@
 		90C7689418BC9003002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		90C7689518BC9003002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
 		90C7689718BC91FD002FBFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Preferences.xib; sourceTree = "<group>"; };
-		90C7689A18BC9203002FBFC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Preferences.strings; sourceTree = "<group>"; };
-		90C7689C18BC9204002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Preferences.strings"; sourceTree = "<group>"; };
+		90C7689E18BC946B002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Preferences.strings"; sourceTree = "<group>"; };
+		90C768A018BC9472002FBFC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Preferences.strings; sourceTree = "<group>"; };
 		90ECEF1218B6557F008CB457 /* awake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90ECEF1518B6557F008CB457 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		90ECEF1818B6557F008CB457 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -420,8 +420,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				90C7689718BC91FD002FBFC2 /* Base */,
-				90C7689A18BC9203002FBFC2 /* en */,
-				90C7689C18BC9204002FBFC2 /* zh-Hans */,
+				90C7689E18BC946B002FBFC2 /* zh-Hans */,
+				90C768A018BC9472002FBFC2 /* en */,
 			);
 			name = Preferences.xib;
 			sourceTree = "<group>";
