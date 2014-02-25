@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9057395218B8D4B300CDCEA5 /* awakeHelper.app in Copy Files */ = {isa = PBXBuildFile; fileRef = 905F540018B8D3A000FA952D /* awakeHelper.app */; };
 		9057395518B8D77D00CDCEA5 /* StartAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057395318B8D77D00CDCEA5 /* StartAtLoginController.m */; };
-		9057395718B8D81A00CDCEA5 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9057395618B8D81A00CDCEA5 /* Preferences.xib */; };
 		9057395A18B8D84A00CDCEA5 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057395918B8D84A00CDCEA5 /* PreferencesController.m */; };
 		905AA7C618B7707C0063E6F5 /* AwakeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AA7C518B7707C0063E6F5 /* AwakeManager.m */; };
 		905AA7C818B775980063E6F5 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905AA7C718B775980063E6F5 /* IOKit.framework */; };
@@ -31,6 +30,7 @@
 		90B7CDE818B84A8700E057A4 /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 90B7CDE718B84A8700E057A4 /* Sparkle.framework */; };
 		90B7CDE918B84BA500E057A4 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7CDE718B84A8700E057A4 /* Sparkle.framework */; };
 		90B7CDEB18B84E5200E057A4 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 90B7CDEA18B84E5200E057A4 /* dsa_pub.pem */; };
+		90C7689618BC91FD002FBFC2 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C7689818BC91FD002FBFC2 /* Preferences.xib */; };
 		90ECEF1618B6557F008CB457 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90ECEF1518B6557F008CB457 /* Cocoa.framework */; };
 		90ECEF2018B6557F008CB457 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90ECEF1E18B6557F008CB457 /* InfoPlist.strings */; };
 		90ECEF2218B6557F008CB457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90ECEF2118B6557F008CB457 /* main.m */; };
@@ -66,10 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		901C42FE18B86D86007D4E67 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		9057395318B8D77D00CDCEA5 /* StartAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartAtLoginController.m; sourceTree = "<group>"; };
 		9057395418B8D77D00CDCEA5 /* StartAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartAtLoginController.h; sourceTree = "<group>"; };
-		9057395618B8D81A00CDCEA5 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		9057395818B8D84A00CDCEA5 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
 		9057395918B8D84A00CDCEA5 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
 		905AA7C418B7707C0063E6F5 /* AwakeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwakeManager.h; sourceTree = "<group>"; };
@@ -97,6 +95,15 @@
 		905F541418B8D3A000FA952D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		90B7CDE718B84A8700E057A4 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		90B7CDEA18B84E5200E057A4 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		90C7689018BC9002002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		90C7689118BC9003002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		90C7689218BC9003002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		90C7689318BC9003002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		90C7689418BC9003002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		90C7689518BC9003002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		90C7689718BC91FD002FBFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Preferences.xib; sourceTree = "<group>"; };
+		90C7689A18BC9203002FBFC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Preferences.strings; sourceTree = "<group>"; };
+		90C7689C18BC9204002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Preferences.strings"; sourceTree = "<group>"; };
 		90ECEF1218B6557F008CB457 /* awake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90ECEF1518B6557F008CB457 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		90ECEF1818B6557F008CB457 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -219,7 +226,7 @@
 				905D281F18B728AD00C3033C /* StatusItemView.m */,
 				905AA7C418B7707C0063E6F5 /* AwakeManager.h */,
 				905AA7C518B7707C0063E6F5 /* AwakeManager.m */,
-				9057395618B8D81A00CDCEA5 /* Preferences.xib */,
+				90C7689818BC91FD002FBFC2 /* Preferences.xib */,
 				9057395818B8D84A00CDCEA5 /* PreferencesController.h */,
 				9057395918B8D84A00CDCEA5 /* PreferencesController.m */,
 			);
@@ -349,7 +356,7 @@
 				905D282818B7488E00C3033C /* MenuIconActive.png in Resources */,
 				90B7CDEB18B84E5200E057A4 /* dsa_pub.pem in Resources */,
 				90ECEF2618B6557F008CB457 /* Credits.rtf in Resources */,
-				9057395718B8D81A00CDCEA5 /* Preferences.xib in Resources */,
+				90C7689618BC91FD002FBFC2 /* Preferences.xib in Resources */,
 				90ECEF2C18B6557F008CB457 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +393,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				905F540618B8D3A000FA952D /* en */,
+				90C7689418BC9003002FBFC2 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -394,6 +402,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				905F540C18B8D3A000FA952D /* en */,
+				90C7689518BC9003002FBFC2 /* zh-Hans */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -402,14 +411,26 @@
 			isa = PBXVariantGroup;
 			children = (
 				905F541218B8D3A000FA952D /* Base */,
+				90C7689318BC9003002FBFC2 /* zh-Hans */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		90C7689818BC91FD002FBFC2 /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C7689718BC91FD002FBFC2 /* Base */,
+				90C7689A18BC9203002FBFC2 /* en */,
+				90C7689C18BC9204002FBFC2 /* zh-Hans */,
+			);
+			name = Preferences.xib;
 			sourceTree = "<group>";
 		};
 		90ECEF1E18B6557F008CB457 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				90ECEF1F18B6557F008CB457 /* en */,
+				90C7689018BC9002002FBFC2 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -418,6 +439,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				90ECEF2518B6557F008CB457 /* en */,
+				90C7689118BC9003002FBFC2 /* zh-Hans */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -427,7 +449,7 @@
 			children = (
 				90ECEF2B18B6557F008CB457 /* Base */,
 				90F923BD18B8658F00CB47EF /* en */,
-				901C42FE18B86D86007D4E67 /* zh */,
+				90C7689218BC9003002FBFC2 /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

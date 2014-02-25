@@ -386,8 +386,11 @@
 /* Class = "NSMenuItem"; title = "Quit"; ObjectID = "0oG-35-sbZ"; */
 "0oG-35-sbZ.title" = "退出";
 
+/* Class = "NSMenuItem"; title = "Preferences"; ObjectID = "4Qx-HN-kSc"; */
+"4Qx-HN-kSc.title" = "偏好设置";
+
 /* Class = "NSMenuItem"; title = "About awake"; ObjectID = "eFs-gX-hjv"; */
 "eFs-gX-hjv.title" = "关于 awake";
 
-/* Class = "NSMenuItem"; title = "Check for update…"; ObjectID = "lDb-Yi-GLN"; */
-"lDb-Yi-GLN.title" = "检查更新…";
+/* Class = "NSMenuItem"; title = "Check for update..."; ObjectID = "lDb-Yi-GLN"; */
+"lDb-Yi-GLN.title" = "检查更新...";

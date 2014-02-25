@@ -23,9 +23,9 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r2a-qG-EQ6">
-                        <rect key="frame" x="18" y="60" width="96" height="18"/>
+                        <rect key="frame" x="18" y="60" width="206" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="run at login" bezelStyle="regularSquare" imagePosition="left" inset="2" id="aF1-nv-ww4">
+                        <buttonCell key="cell" type="check" title="Automatically launch at login" bezelStyle="regularSquare" imagePosition="left" inset="2" id="aF1-nv-ww4">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -34,9 +34,9 @@
                         </connections>
                     </button>
                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g7G-fE-Agq">
-                        <rect key="frame" x="18" y="26" width="139" height="18"/>
+                        <rect key="frame" x="18" y="26" width="225" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="auto check update" bezelStyle="regularSquare" imagePosition="left" inset="2" id="VFf-gp-9Gc">
+                        <buttonCell key="cell" type="check" title="Automatically check for updates" bezelStyle="regularSquare" imagePosition="left" inset="2" id="VFf-gp-9Gc">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
