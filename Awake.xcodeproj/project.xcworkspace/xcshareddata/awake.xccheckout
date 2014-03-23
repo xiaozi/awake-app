@@ -7,21 +7,21 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>1EC49B13-B630-467C-8A37-83A4769CFECD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>awake</string>
+	<string>Awake</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F1BF5A9A-35B5-4443-8730-E17060D55304</key>
-		<string>ssh://github.com/xiaozi/awake.git</string>
+		<string>ssh://github.com/xiaozi/Awake.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>awake.xcodeproj/project.xcworkspace</string>
+	<string>Awake.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F1BF5A9A-35B5-4443-8730-E17060D55304</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/xiaozi/awake.git</string>
+	<string>ssh://github.com/xiaozi/Awake.app.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>F1BF5A9A-35B5-4443-8730-E17060D55304</string>
 			<key>IDESourceControlWCCName</key>
-			<string>awake</string>
+			<string>Awake</string>
 		</dict>
 	</array>
 </dict>

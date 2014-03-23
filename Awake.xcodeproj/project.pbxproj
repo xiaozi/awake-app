@@ -166,7 +166,6 @@
 				905F541418B8D3A000FA952D /* Images.xcassets */,
 				905F540318B8D3A000FA952D /* Supporting Files */,
 			);
-			name = AwakeHelper;
 			path = AwakeHelper;
 			sourceTree = "<group>";
 		};
@@ -243,7 +242,6 @@
 				9057395818B8D84A00CDCEA5 /* PreferencesController.h */,
 				9057395918B8D84A00CDCEA5 /* PreferencesController.m */,
 			);
-			name = Awake;
 			path = Awake;
 			sourceTree = "<group>";
 		};
