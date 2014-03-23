@@ -17,7 +17,7 @@
                BlueprintIdentifier = "905F539718B8CAB400FA952D"
                BuildableName = "helper.app"
                BlueprintName = "helper"
-               ReferencedContainer = "container:awake.xcodeproj">
+               ReferencedContainer = "container:Awake.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "905F539718B8CAB400FA952D"
             BuildableName = "helper.app"
             BlueprintName = "helper"
-            ReferencedContainer = "container:awake.xcodeproj">
+            ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,7 +54,7 @@
             BlueprintIdentifier = "905F539718B8CAB400FA952D"
             BuildableName = "helper.app"
             BlueprintName = "helper"
-            ReferencedContainer = "container:awake.xcodeproj">
+            ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,7 +72,7 @@
             BlueprintIdentifier = "905F539718B8CAB400FA952D"
             BuildableName = "helper.app"
             BlueprintName = "helper"
-            ReferencedContainer = "container:awake.xcodeproj">
+            ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

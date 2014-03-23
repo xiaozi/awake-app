@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		901020A718C0AD98000F26D8 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 901020A618C0AD98000F26D8 /* AppIcon.icns */; };
-		9057395218B8D4B300CDCEA5 /* awakeHelper.app in Copy Files */ = {isa = PBXBuildFile; fileRef = 905F540018B8D3A000FA952D /* awakeHelper.app */; };
+		9057395218B8D4B300CDCEA5 /* AwakeHelper.app in Copy Files */ = {isa = PBXBuildFile; fileRef = 905F540018B8D3A000FA952D /* AwakeHelper.app */; };
 		9057395518B8D77D00CDCEA5 /* StartAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057395318B8D77D00CDCEA5 /* StartAtLoginController.m */; };
 		9057395A18B8D84A00CDCEA5 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057395918B8D84A00CDCEA5 /* PreferencesController.m */; };
 		905AA7C618B7707C0063E6F5 /* AwakeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AA7C518B7707C0063E6F5 /* AwakeManager.m */; };
@@ -41,6 +41,16 @@
 		90ECEF2E18B6557F008CB457 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90ECEF2D18B6557F008CB457 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		90CDE93918DE99F9009B7A9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90ECEF0A18B6557F008CB457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905F53FF18B8D3A000FA952D;
+			remoteInfo = AwakeHelper;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		905D281C18B71A7E00C3033C /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -59,7 +69,7 @@
 			dstPath = Contents/Library/LoginItems;
 			dstSubfolderSpec = 1;
 			files = (
-				9057395218B8D4B300CDCEA5 /* awakeHelper.app in Copy Files */,
+				9057395218B8D4B300CDCEA5 /* AwakeHelper.app in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +85,7 @@
 		905AA7C418B7707C0063E6F5 /* AwakeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwakeManager.h; sourceTree = "<group>"; };
 		905AA7C518B7707C0063E6F5 /* AwakeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwakeManager.m; sourceTree = "<group>"; };
 		905AA7C718B775980063E6F5 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		905AA7C918B776020063E6F5 /* awake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = awake.entitlements; sourceTree = "<group>"; };
+		905AA7C918B776020063E6F5 /* Awake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Awake.entitlements; sourceTree = "<group>"; };
 		905D281E18B728AD00C3033C /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
 		905D281F18B728AD00C3033C /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
 		905D282418B7488E00C3033C /* MenuIconActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIconActive.png; sourceTree = "<group>"; };
@@ -85,11 +95,11 @@
 		905D282C18B74E7B00C3033C /* MenuIconSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIconSelected.png; sourceTree = "<group>"; };
 		905D282D18B74E7B00C3033C /* MenuIconSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuIconSelected@2x.png"; sourceTree = "<group>"; };
 		905F53C518B8CB0D00FA952D /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
-		905F540018B8D3A000FA952D /* awakeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awakeHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		905F540418B8D3A000FA952D /* awakeHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "awakeHelper-Info.plist"; sourceTree = "<group>"; };
+		905F540018B8D3A000FA952D /* AwakeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwakeHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905F540418B8D3A000FA952D /* AwakeHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwakeHelper-Info.plist"; sourceTree = "<group>"; };
 		905F540618B8D3A000FA952D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		905F540818B8D3A000FA952D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		905F540A18B8D3A000FA952D /* awakeHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "awakeHelper-Prefix.pch"; sourceTree = "<group>"; };
+		905F540A18B8D3A000FA952D /* AwakeHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AwakeHelper-Prefix.pch"; sourceTree = "<group>"; };
 		905F540C18B8D3A000FA952D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		905F540E18B8D3A000FA952D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		905F540F18B8D3A000FA952D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,15 +116,15 @@
 		90C7689718BC91FD002FBFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Preferences.xib; sourceTree = "<group>"; };
 		90C7689E18BC946B002FBFC2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Preferences.strings"; sourceTree = "<group>"; };
 		90C768A018BC9472002FBFC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Preferences.strings; sourceTree = "<group>"; };
-		90ECEF1218B6557F008CB457 /* awake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ECEF1218B6557F008CB457 /* Awake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Awake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90ECEF1518B6557F008CB457 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		90ECEF1818B6557F008CB457 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		90ECEF1918B6557F008CB457 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		90ECEF1A18B6557F008CB457 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		90ECEF1D18B6557F008CB457 /* awake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "awake-Info.plist"; sourceTree = "<group>"; };
+		90ECEF1D18B6557F008CB457 /* Awake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Awake-Info.plist"; sourceTree = "<group>"; };
 		90ECEF1F18B6557F008CB457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90ECEF2118B6557F008CB457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90ECEF2318B6557F008CB457 /* awake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "awake-Prefix.pch"; sourceTree = "<group>"; };
+		90ECEF2318B6557F008CB457 /* xxx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xxx-Prefix.pch"; sourceTree = "<group>"; };
 		90ECEF2518B6557F008CB457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		90ECEF2718B6557F008CB457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90ECEF2818B6557F008CB457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,7 +157,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		905F540218B8D3A000FA952D /* awakeHelper */ = {
+		905F540218B8D3A000FA952D /* AwakeHelper */ = {
 			isa = PBXGroup;
 			children = (
 				905F540E18B8D3A000FA952D /* AppDelegate.h */,
@@ -156,16 +166,17 @@
 				905F541418B8D3A000FA952D /* Images.xcassets */,
 				905F540318B8D3A000FA952D /* Supporting Files */,
 			);
+			name = AwakeHelper;
 			path = awakeHelper;
 			sourceTree = "<group>";
 		};
 		905F540318B8D3A000FA952D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				905F540418B8D3A000FA952D /* awakeHelper-Info.plist */,
+				905F540418B8D3A000FA952D /* AwakeHelper-Info.plist */,
 				905F540518B8D3A000FA952D /* InfoPlist.strings */,
 				905F540818B8D3A000FA952D /* main.m */,
-				905F540A18B8D3A000FA952D /* awakeHelper-Prefix.pch */,
+				905F540A18B8D3A000FA952D /* AwakeHelper-Prefix.pch */,
 				905F540B18B8D3A000FA952D /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -174,8 +185,8 @@
 		90ECEF0918B6557F008CB457 = {
 			isa = PBXGroup;
 			children = (
-				90ECEF1B18B6557F008CB457 /* awake */,
-				905F540218B8D3A000FA952D /* awakeHelper */,
+				90ECEF1B18B6557F008CB457 /* Awake */,
+				905F540218B8D3A000FA952D /* AwakeHelper */,
 				90ECEF1418B6557F008CB457 /* Frameworks */,
 				90ECEF1318B6557F008CB457 /* Products */,
 			);
@@ -184,8 +195,8 @@
 		90ECEF1318B6557F008CB457 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90ECEF1218B6557F008CB457 /* awake.app */,
-				905F540018B8D3A000FA952D /* awakeHelper.app */,
+				90ECEF1218B6557F008CB457 /* Awake.app */,
+				905F540018B8D3A000FA952D /* AwakeHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,12 +224,12 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		90ECEF1B18B6557F008CB457 /* awake */ = {
+		90ECEF1B18B6557F008CB457 /* Awake */ = {
 			isa = PBXGroup;
 			children = (
 				9057395418B8D77D00CDCEA5 /* StartAtLoginController.h */,
 				9057395318B8D77D00CDCEA5 /* StartAtLoginController.m */,
-				905AA7C918B776020063E6F5 /* awake.entitlements */,
+				905AA7C918B776020063E6F5 /* Awake.entitlements */,
 				90ECEF2718B6557F008CB457 /* AppDelegate.h */,
 				90ECEF2818B6557F008CB457 /* AppDelegate.m */,
 				90ECEF2A18B6557F008CB457 /* MainMenu.xib */,
@@ -232,6 +243,7 @@
 				9057395818B8D84A00CDCEA5 /* PreferencesController.h */,
 				9057395918B8D84A00CDCEA5 /* PreferencesController.m */,
 			);
+			name = Awake;
 			path = awake;
 			sourceTree = "<group>";
 		};
@@ -246,10 +258,10 @@
 				905D282518B7488E00C3033C /* MenuIconActive@2x.png */,
 				905D282618B7488E00C3033C /* MenuIcon.png */,
 				905D282718B7488E00C3033C /* MenuIcon@2x.png */,
-				90ECEF1D18B6557F008CB457 /* awake-Info.plist */,
+				90ECEF1D18B6557F008CB457 /* Awake-Info.plist */,
 				90ECEF1E18B6557F008CB457 /* InfoPlist.strings */,
 				90ECEF2118B6557F008CB457 /* main.m */,
-				90ECEF2318B6557F008CB457 /* awake-Prefix.pch */,
+				90ECEF2318B6557F008CB457 /* xxx-Prefix.pch */,
 				90ECEF2418B6557F008CB457 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -258,9 +270,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		905F53FF18B8D3A000FA952D /* awakeHelper */ = {
+		905F53FF18B8D3A000FA952D /* AwakeHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 905F542718B8D3A000FA952D /* Build configuration list for PBXNativeTarget "awakeHelper" */;
+			buildConfigurationList = 905F542718B8D3A000FA952D /* Build configuration list for PBXNativeTarget "AwakeHelper" */;
 			buildPhases = (
 				905F53FC18B8D3A000FA952D /* Sources */,
 				905F53FD18B8D3A000FA952D /* Frameworks */,
@@ -270,14 +282,14 @@
 			);
 			dependencies = (
 			);
-			name = awakeHelper;
+			name = AwakeHelper;
 			productName = awakeHelper;
-			productReference = 905F540018B8D3A000FA952D /* awakeHelper.app */;
+			productReference = 905F540018B8D3A000FA952D /* AwakeHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90ECEF1118B6557F008CB457 /* awake */ = {
+		90ECEF1118B6557F008CB457 /* Awake */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90ECEF4318B6557F008CB457 /* Build configuration list for PBXNativeTarget "awake" */;
+			buildConfigurationList = 90ECEF4318B6557F008CB457 /* Build configuration list for PBXNativeTarget "Awake" */;
 			buildPhases = (
 				90ECEF0E18B6557F008CB457 /* Sources */,
 				90ECEF0F18B6557F008CB457 /* Frameworks */,
@@ -288,10 +300,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				90CDE93A18DE99F9009B7A9B /* PBXTargetDependency */,
 			);
-			name = awake;
+			name = Awake;
 			productName = awake;
-			productReference = 90ECEF1218B6557F008CB457 /* awake.app */;
+			productReference = 90ECEF1218B6557F008CB457 /* Awake.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -312,7 +325,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90ECEF0D18B6557F008CB457 /* Build configuration list for PBXProject "awake" */;
+			buildConfigurationList = 90ECEF0D18B6557F008CB457 /* Build configuration list for PBXProject "Awake" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -327,8 +340,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90ECEF1118B6557F008CB457 /* awake */,
-				905F53FF18B8D3A000FA952D /* awakeHelper */,
+				90ECEF1118B6557F008CB457 /* Awake */,
+				905F53FF18B8D3A000FA952D /* AwakeHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -391,6 +404,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90CDE93A18DE99F9009B7A9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905F53FF18B8D3A000FA952D /* AwakeHelper */;
+			targetProxy = 90CDE93918DE99F9009B7A9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		905F540518B8D3A000FA952D /* InfoPlist.strings */ = {
@@ -467,13 +488,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "awakeHelper/awakeHelper-Prefix.pch";
+				GCC_PREFIX_HEADER = "awakeHelper/AwakeHelper-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "awakeHelper/awakeHelper-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "awakeHelper/AwakeHelper-Info.plist";
+				PRODUCT_NAME = AwakeHelper;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -485,9 +506,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "awakeHelper/awakeHelper-Prefix.pch";
-				INFOPLIST_FILE = "awakeHelper/awakeHelper-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "awakeHelper/AwakeHelper-Prefix.pch";
+				INFOPLIST_FILE = "awakeHelper/AwakeHelper-Info.plist";
+				PRODUCT_NAME = AwakeHelper;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -574,9 +595,9 @@
 					/Users/xiaozi/Documents/workspace/awake,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "awake/awake-Prefix.pch";
-				INFOPLIST_FILE = "awake/awake-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "awake/Awake-Prefix.pch";
+				INFOPLIST_FILE = "awake/Awake-Info.plist";
+				PRODUCT_NAME = Awake;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -592,9 +613,9 @@
 					/Users/xiaozi/Documents/workspace/awake,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "awake/awake-Prefix.pch";
-				INFOPLIST_FILE = "awake/awake-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "awake/Awake-Prefix.pch";
+				INFOPLIST_FILE = "awake/Awake-Info.plist";
+				PRODUCT_NAME = Awake;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -602,7 +623,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		905F542718B8D3A000FA952D /* Build configuration list for PBXNativeTarget "awakeHelper" */ = {
+		905F542718B8D3A000FA952D /* Build configuration list for PBXNativeTarget "AwakeHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				905F542818B8D3A000FA952D /* Debug */,
@@ -611,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90ECEF0D18B6557F008CB457 /* Build configuration list for PBXProject "awake" */ = {
+		90ECEF0D18B6557F008CB457 /* Build configuration list for PBXProject "Awake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90ECEF4118B6557F008CB457 /* Debug */,
@@ -620,7 +641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90ECEF4318B6557F008CB457 /* Build configuration list for PBXNativeTarget "awake" */ = {
+		90ECEF4318B6557F008CB457 /* Build configuration list for PBXNativeTarget "Awake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90ECEF4418B6557F008CB457 /* Debug */,

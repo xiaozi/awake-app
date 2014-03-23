@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "905F53CA18B8CC0F00FA952D"
+               BlueprintIdentifier = "905F53FF18B8D3A000FA952D"
                BuildableName = "awakeHelper.app"
-               BlueprintName = "awakeHelper"
-               ReferencedContainer = "container:awake.xcodeproj">
+               BlueprintName = "AwakeHelper"
+               ReferencedContainer = "container:Awake.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "905F53CA18B8CC0F00FA952D"
+            BlueprintIdentifier = "905F53FF18B8D3A000FA952D"
             BuildableName = "awakeHelper.app"
-            BlueprintName = "awakeHelper"
-            ReferencedContainer = "container:awake.xcodeproj">
+            BlueprintName = "AwakeHelper"
+            ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "905F53CA18B8CC0F00FA952D"
+            BlueprintIdentifier = "905F53FF18B8D3A000FA952D"
             BuildableName = "awakeHelper.app"
-            BlueprintName = "awakeHelper"
-            ReferencedContainer = "container:awake.xcodeproj">
+            BlueprintName = "AwakeHelper"
+            ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "905F53CA18B8CC0F00FA952D"
+            BlueprintIdentifier = "905F53FF18B8D3A000FA952D"
             BuildableName = "awakeHelper.app"
-            BlueprintName = "awakeHelper"
-            ReferencedContainer = "container:awake.xcodeproj">
+            BlueprintName = "AwakeHelper"
+            ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
