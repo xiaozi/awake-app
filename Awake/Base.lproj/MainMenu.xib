@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5053"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -658,6 +658,7 @@
         </window>
         <customObject id="494" customClass="AppDelegate">
             <connections>
+                <outlet property="activateForMenu" destination="rcD-Tz-x2S" id="fcH-ba-Kfw"/>
                 <outlet property="statusMenu" destination="s7Y-lZ-eAs" id="JCv-nA-V0W"/>
                 <outlet property="window" destination="371" id="532"/>
             </connections>
@@ -665,6 +666,9 @@
         <customObject id="420" customClass="NSFontManager"/>
         <menu id="s7Y-lZ-eAs">
             <items>
+                <menuItem title="Activate for" id="FkJ-Yt-gP1">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
                 <menuItem title="About Awake" id="eFs-gX-hjv">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
@@ -693,5 +697,51 @@
             </items>
         </menu>
         <customObject id="ppD-FX-pYW" customClass="SUUpdater"/>
+        <menu id="rcD-Tz-x2S">
+            <items>
+                <menuItem title="5 minutes" tag="5" id="nG2-JS-PZf">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="awakeForWhile:" target="494" id="eSZ-fo-7Lo"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="10 minutes" tag="10" id="RSK-9g-FrK">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="awakeForWhile:" target="494" id="xcL-AO-eBu"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="15 minutes" tag="15" id="Iwp-Ri-mgd">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="awakeForWhile:" target="494" id="nR6-Mh-9Wh"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="30 minutes" tag="30" id="f5U-f6-OMS">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="awakeForWhile:" target="494" id="QoO-pW-TH8"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="1 hour" tag="60" id="jau-Nn-8EI">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="awakeForWhile:" target="494" id="BeM-vA-q6f"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="2 hours" tag="120" id="Ig6-0i-bX0">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="awakeForWhile:" target="494" id="DP4-yH-na5"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="5 hours" tag="300" id="uuw-jd-Vr8">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="awakeForWhile:" target="494" id="a5b-5l-GNC"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
     </objects>
 </document>

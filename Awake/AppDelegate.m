@@ -36,6 +36,8 @@
 		[awakeManager turnOn];
 		[statusView setImage: [NSImage imageNamed:@"MenuIconActive"]];
 	}
+	
+	[[statusMenu itemAtIndex: 0] setSubmenu: activateForMenu];
 }
 
 -(void) clickStatusItem: (NSEvent *)theEvent {
@@ -49,6 +51,28 @@
 	[[NSUserDefaults standardUserDefaults] setBool: [awakeManager isSleepOff] forKey: @"isSleepOff"];
 }
 
+-(IBAction)awakeForWhile:(id)sender
+{
+	if (timer) {
+		[timer invalidate];
+//		timer = nil;
+	}
+	[awakeManager turnOn];
+	[statusView setImage: [NSImage imageNamed:@"MenuIconActive"]];
+	NSInteger minutes = [sender tag];
+	timer = [NSTimer scheduledTimerWithTimeInterval:minutes * 60
+									 target:self
+								   selector:@selector(handleTimer:)
+								   userInfo:nil
+									repeats:NO];
+}
+
+- (void) handleTimer: (NSTimer *) timer
+{
+	[awakeManager turnOff];
+	[statusView setImage: [NSImage imageNamed:@"MenuIcon"]];
+}
+
 -(IBAction)showAbout:(id)sender
 {
 	[NSApp orderFrontStandardAboutPanel:self];
@@ -59,6 +83,7 @@
 	if (!preferencesController) {
 		preferencesController = [[PreferencesController alloc] initWithWindowNibName: @"Preferences"];
 	}
+	[[preferencesController window] center];
 	[preferencesController showWindow: self];
 }
 

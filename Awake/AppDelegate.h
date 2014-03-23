@@ -13,10 +13,12 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
 	IBOutlet NSMenu *statusMenu;
+	IBOutlet NSMenu *activateForMenu;
 	NSStatusItem *statusItem;
 	StatusItemView *statusView;
 	PreferencesController *preferencesController;
 	AwakeManager *awakeManager;
+	NSTimer* timer;
 //	AboutController *aboutController;
 }
 
@@ -27,5 +29,7 @@
 -(IBAction)showAbout:(id)sender;
 
 -(IBAction)showPreferences:(id)sender;
+
+-(IBAction)awakeForWhile:(id)sender;
 
 @end
