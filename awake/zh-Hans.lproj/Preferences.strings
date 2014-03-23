@@ -1,9 +1,0 @@
-
-/* Class = "NSWindow"; title = "Preferences"; ObjectID = "1"; */
-"1.title" = "偏好设置";
-
-/* Class = "NSButtonCell"; title = "Automatically check for updates"; ObjectID = "VFf-gp-9Gc"; */
-"VFf-gp-9Gc.title" = "自动检测更新";
-
-/* Class = "NSButtonCell"; title = "Automatically launch at login"; ObjectID = "aF1-nv-ww4"; */
-"aF1-nv-ww4.title" = "登录时运行";
