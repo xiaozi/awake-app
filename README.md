@@ -1,7 +1,7 @@
-awake
+Awake
 =====
 
-![screenshot](https://raw2.github.com/xiaozi/awake/master/screenshot.png)
+![screenshot](https://raw2.github.com/xiaozi/Awake.app/master/screenshot.png)
 
 An app for mac osx to prevent sleeping; inspired by Caffine.
 

@@ -1,6 +1,6 @@
 //
 //  PreferencesWindowController.m
-//  awake
+//  Awake
 //
 //  Created by xiaozi on 14-2-22.
 //  Copyright (c) 2014年 xiaozi. All rights reserved.
@@ -27,7 +27,7 @@
     self = [super initWithWindow:window];
     if (self) {
         // Initialization code here.
-		loginController = [[StartAtLoginController alloc] initWithIdentifier:@"com.xiaozi.awakeHelper"];
+		loginController = [[StartAtLoginController alloc] initWithIdentifier:@"com.xiaozi.AwakeHelper"];
     }
     return self;
 }
@@ -43,7 +43,7 @@
 
 -(IBAction) clickAtLogin:(id)sender
 {
-//	[loginController setBundle:[NSBundle bundleWithPath:[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"Contents/Library/LoginItems/awakeHelper.app"]]];
+//	[loginController setBundle:[NSBundle bundleWithPath:[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"Contents/Library/LoginItems/AwakeHelper.app"]]];
 	if ([sender state]) {
 		if (![loginController startAtLogin]) {
 			[loginController setStartAtLogin: YES];

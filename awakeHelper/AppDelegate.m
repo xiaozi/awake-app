@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  awakeHelper
+//  AwakeHelper
 //
 //  Created by xiaozi on 14-2-22.
 //  Copyright (c) 2014年 xiaozi. All rights reserved.
@@ -12,7 +12,7 @@
 
 - (void)applicationWillFinishLaunching:(NSNotification *)aNotification
 {
-	NSString *appPath = [[[NSBundle mainBundle] bundlePath] stringByReplacingOccurrencesOfString:@"/Contents/Library/LoginItems/awakeHelper.app" withString:@""];
+	NSString *appPath = [[[NSBundle mainBundle] bundlePath] stringByReplacingOccurrencesOfString:@"/Contents/Library/LoginItems/AwakeHelper.app" withString:@""];
 	NSString *binaryPath = [[NSBundle bundleWithPath:appPath] executablePath];
 	[[NSWorkspace sharedWorkspace] launchApplication:binaryPath];
 	[NSApp terminate:nil];

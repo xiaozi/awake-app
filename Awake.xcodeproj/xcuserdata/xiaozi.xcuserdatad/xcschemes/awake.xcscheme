@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90ECEF1118B6557F008CB457"
-               BuildableName = "awake.app"
+               BuildableName = "Awake.app"
                BlueprintName = "Awake"
                ReferencedContainer = "container:Awake.xcodeproj">
             </BuildableReference>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90ECEF3218B6557F008CB457"
-               BuildableName = "awakeTests.xctest"
-               BlueprintName = "awakeTests"
+               BuildableName = "AwakeTests.xctest"
+               BlueprintName = "AwakeTests"
                ReferencedContainer = "container:Awake.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -53,8 +53,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "905F541918B8D3A000FA952D"
-               BuildableName = "awakeHelperTests.xctest"
-               BlueprintName = "awakeHelperTests"
+               BuildableName = "AwakeHelperTests.xctest"
+               BlueprintName = "AwakeHelperTests"
                ReferencedContainer = "container:Awake.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90ECEF1118B6557F008CB457"
-            BuildableName = "awake.app"
+            BuildableName = "Awake.app"
             BlueprintName = "Awake"
             ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90ECEF1118B6557F008CB457"
-            BuildableName = "awake.app"
+            BuildableName = "Awake.app"
             BlueprintName = "Awake"
             ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>
@@ -100,7 +100,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90ECEF1118B6557F008CB457"
-            BuildableName = "awake.app"
+            BuildableName = "Awake.app"
             BlueprintName = "Awake"
             ReferencedContainer = "container:Awake.xcodeproj">
          </BuildableReference>

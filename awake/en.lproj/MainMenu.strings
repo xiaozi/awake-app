@@ -14,14 +14,14 @@
 /* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
 "29.title" = "AMainMenu";
 
-/* Class = "NSMenuItem"; title = "awake"; ObjectID = "56"; */
-"56.title" = "awake";
+/* Class = "NSMenuItem"; title = "Awake"; ObjectID = "56"; */
+"56.title" = "Awake";
 
-/* Class = "NSMenu"; title = "awake"; ObjectID = "57"; */
-"57.title" = "awake";
+/* Class = "NSMenu"; title = "Awake"; ObjectID = "57"; */
+"57.title" = "Awake";
 
-/* Class = "NSMenuItem"; title = "About awake"; ObjectID = "58"; */
-"58.title" = "About awake";
+/* Class = "NSMenuItem"; title = "About Awake"; ObjectID = "58"; */
+"58.title" = "About Awake";
 
 /* Class = "NSMenuItem"; title = "Open…"; ObjectID = "72"; */
 "72.title" = "Open…";
@@ -68,11 +68,11 @@
 /* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
 "131.title" = "Services";
 
-/* Class = "NSMenuItem"; title = "Hide awake"; ObjectID = "134"; */
-"134.title" = "Hide awake";
+/* Class = "NSMenuItem"; title = "Hide Awake"; ObjectID = "134"; */
+"134.title" = "Hide Awake";
 
-/* Class = "NSMenuItem"; title = "Quit awake"; ObjectID = "136"; */
-"136.title" = "Quit awake";
+/* Class = "NSMenuItem"; title = "Quit Awake"; ObjectID = "136"; */
+"136.title" = "Quit Awake";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
 "145.title" = "Hide Others";
@@ -188,8 +188,8 @@
 /* Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "354"; */
 "354.title" = "Smart Links";
 
-/* Class = "NSWindow"; title = "awake"; ObjectID = "371"; */
-"371.title" = "awake";
+/* Class = "NSWindow"; title = "Awake"; ObjectID = "371"; */
+"371.title" = "Awake";
 
 /* Class = "NSMenuItem"; title = "Format"; ObjectID = "375"; */
 "375.title" = "Format";
@@ -320,8 +320,8 @@
 /* Class = "NSMenu"; title = "Help"; ObjectID = "491"; */
 "491.title" = "Help";
 
-/* Class = "NSMenuItem"; title = "awake Help"; ObjectID = "492"; */
-"492.title" = "awake Help";
+/* Class = "NSMenuItem"; title = "Awake Help"; ObjectID = "492"; */
+"492.title" = "Awake Help";
 
 /* Class = "NSMenuItem"; title = "Text"; ObjectID = "496"; */
 "496.title" = "Text";
@@ -386,8 +386,8 @@
 /* Class = "NSMenuItem"; title = "Quit"; ObjectID = "0oG-35-sbZ"; */
 "0oG-35-sbZ.title" = "Quit";
 
-/* Class = "NSMenuItem"; title = "About awake"; ObjectID = "eFs-gX-hjv"; */
-"eFs-gX-hjv.title" = "About awake";
+/* Class = "NSMenuItem"; title = "About Awake"; ObjectID = "eFs-gX-hjv"; */
+"eFs-gX-hjv.title" = "About Awake";
 
 /* Class = "NSMenuItem"; title = "Check for update…"; ObjectID = "lDb-Yi-GLN"; */
 "lDb-Yi-GLN.title" = "Check for update...";

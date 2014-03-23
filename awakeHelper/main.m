@@ -1,6 +1,6 @@
 //
 //  main.m
-//  awakeHelper
+//  AwakeHelper
 //
 //  Created by xiaozi on 14-2-22.
 //  Copyright (c) 2014年 xiaozi. All rights reserved.

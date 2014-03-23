@@ -167,7 +167,7 @@
 				905F540318B8D3A000FA952D /* Supporting Files */,
 			);
 			name = AwakeHelper;
-			path = awakeHelper;
+			path = AwakeHelper;
 			sourceTree = "<group>";
 		};
 		905F540318B8D3A000FA952D /* Supporting Files */ = {
@@ -244,7 +244,7 @@
 				9057395918B8D84A00CDCEA5 /* PreferencesController.m */,
 			);
 			name = Awake;
-			path = awake;
+			path = Awake;
 			sourceTree = "<group>";
 		};
 		90ECEF1C18B6557F008CB457 /* Supporting Files */ = {
@@ -283,7 +283,7 @@
 			dependencies = (
 			);
 			name = AwakeHelper;
-			productName = awakeHelper;
+			productName = AwakeHelper;
 			productReference = 905F540018B8D3A000FA952D /* AwakeHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -303,7 +303,7 @@
 				90CDE93A18DE99F9009B7A9B /* PBXTargetDependency */,
 			);
 			name = Awake;
-			productName = awake;
+			productName = Awake;
 			productReference = 90ECEF1218B6557F008CB457 /* Awake.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -488,12 +488,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "awakeHelper/AwakeHelper-Prefix.pch";
+				GCC_PREFIX_HEADER = "AwakeHelper/AwakeHelper-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "awakeHelper/AwakeHelper-Info.plist";
+				INFOPLIST_FILE = "AwakeHelper/AwakeHelper-Info.plist";
 				PRODUCT_NAME = AwakeHelper;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
@@ -506,8 +506,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "awakeHelper/AwakeHelper-Prefix.pch";
-				INFOPLIST_FILE = "awakeHelper/AwakeHelper-Info.plist";
+				GCC_PREFIX_HEADER = "AwakeHelper/AwakeHelper-Prefix.pch";
+				INFOPLIST_FILE = "AwakeHelper/AwakeHelper-Info.plist";
 				PRODUCT_NAME = AwakeHelper;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
@@ -586,17 +586,17 @@
 		90ECEF4418B6557F008CB457 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = awake/awake.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Awake/Awake.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RHStatusItemView-dgzmhladpgcllsbiczrabtzlrndz/Build/Products/Debug",
-					/Users/xiaozi/Documents/workspace/awake/awake,
-					/Users/xiaozi/Documents/workspace/awake,
+					/Users/xiaozi/Documents/workspace/Awake/Awake,
+					/Users/xiaozi/Documents/workspace/Awake,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "awake/Awake-Prefix.pch";
-				INFOPLIST_FILE = "awake/Awake-Info.plist";
+				GCC_PREFIX_HEADER = "Awake/Awake-Prefix.pch";
+				INFOPLIST_FILE = "Awake/Awake-Info.plist";
 				PRODUCT_NAME = Awake;
 				WRAPPER_EXTENSION = app;
 			};
@@ -605,16 +605,16 @@
 		90ECEF4518B6557F008CB457 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = awake/awake.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Awake/Awake.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RHStatusItemView-dgzmhladpgcllsbiczrabtzlrndz/Build/Products/Debug",
-					/Users/xiaozi/Documents/workspace/awake,
+					/Users/xiaozi/Documents/workspace/Awake,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "awake/Awake-Prefix.pch";
-				INFOPLIST_FILE = "awake/Awake-Info.plist";
+				GCC_PREFIX_HEADER = "Awake/Awake-Prefix.pch";
+				INFOPLIST_FILE = "Awake/Awake-Info.plist";
 				PRODUCT_NAME = Awake;
 				WRAPPER_EXTENSION = app;
 			};

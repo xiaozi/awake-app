@@ -1,6 +1,6 @@
 //
 //  AwakeManager.m
-//  awake
+//  Awake
 //
 //  Created by xiaozi on 14-2-21.
 //  Copyright (c) 2014年 xiaozi. All rights reserved.
