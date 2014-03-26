@@ -666,6 +666,9 @@
         <customObject id="420" customClass="NSFontManager"/>
         <menu id="s7Y-lZ-eAs">
             <items>
+                <menuItem title="00:00:00" id="1jW-dQ-wKt">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
                 <menuItem title="Activate for" id="FkJ-Yt-gP1">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>

@@ -64,9 +64,9 @@
 
 - (void)rightMouseDown:(NSEvent *)theEvent
 {
+	[NSApp sendAction:_rightAction to:_target from:self];
 	NSMenu *menu = [super menu];
     [_statusItem popUpStatusItemMenu:menu];
-	[NSApp sendAction:_rightAction to:_target from:self];
 }
 
 - (void)menuWillOpen:(NSMenu *)menu {

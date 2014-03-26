@@ -31,16 +31,20 @@
 	[statusView setAlternateImage: [NSImage imageNamed:@"MenuIconSelected"]];
 
 	[statusView setAction: @selector(clickStatusItem:)];
+	[statusView setRightAction: @selector(rightClickStatusItem:)];
 	
 	if ([[NSUserDefaults standardUserDefaults] boolForKey:@"isSleepOff"]) {
 		[awakeManager turnOn];
 		[statusView setImage: [NSImage imageNamed:@"MenuIconActive"]];
 	}
-	
-	[[statusMenu itemAtIndex: 0] setSubmenu: activateForMenu];
+	[[statusMenu itemAtIndex: 1] setSubmenu: activateForMenu];
 }
 
 -(void) clickStatusItem: (NSEvent *)theEvent {
+	if (timer) {
+		[timer invalidate];
+		timer = nil;
+	}
 	if ([awakeManager isSleepOff]) {
 		[awakeManager turnOff];
 		[statusView setImage: [NSImage imageNamed:@"MenuIcon"]];
@@ -51,11 +55,24 @@
 	[[NSUserDefaults standardUserDefaults] setBool: [awakeManager isSleepOff] forKey: @"isSleepOff"];
 }
 
+-(void) rightClickStatusItem:(NSEvent *)theEvent {
+	// 查看剩余激活时间
+	NSString *intervalStr = @"00:00:00";
+	if (timer) {
+		NSTimeInterval interval = [[timer fireDate] timeIntervalSinceNow];
+		NSUInteger seconds = (NSUInteger)round(interval);
+		intervalStr = [NSString stringWithFormat:@"%02lu:%02lu:%02lu",
+							seconds / 3600, (seconds / 60) % 60, seconds % 60];
+	}
+//	NSLog(@"%@", intervalStr);
+	[[statusMenu itemAtIndex: 0] setTitle: intervalStr];
+}
+
 -(IBAction)awakeForWhile:(id)sender
 {
 	if (timer) {
 		[timer invalidate];
-//		timer = nil;
+		timer = nil;
 	}
 	[awakeManager turnOn];
 	[statusView setImage: [NSImage imageNamed:@"MenuIconActive"]];
