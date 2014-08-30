@@ -1,0 +1,8 @@
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "1"; */
+"1.title" = "Preferences";
+
+/* Class = "NSButtonCell"; title = "Automatically check for updates"; ObjectID = "VFf-gp-9Gc"; */
+"VFf-gp-9Gc.title" = "Automatically check for updates";
+
+/* Class = "NSButtonCell"; title = "Automatically launch at login"; ObjectID = "aF1-nv-ww4"; */
+"aF1-nv-ww4.title" = "Automatically launch at login";

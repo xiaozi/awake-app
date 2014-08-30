@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Awake Terminology">
+    <suite name="Awake Suite" code="Awak"
+        description="Awake app scripting support">
+        <command name="turn on" code="awakcmOn" description="Enables Awake">
+			<parameter name="for" code="for " type="integer" optional="yes" description="After how many seconds to automatically deactivate Awake again. Optional.">
+                <cocoa key="duration"/>
+            </parameter>
+            <cocoa class="AwakeTurnCommand"/>
+        </command>
+        <command name="turn off" code="awakcOff" description="Disables Awake">
+            <cocoa class="AwakeTurnCommand"/>
+        </command>
+    </suite>
+</dictionary>

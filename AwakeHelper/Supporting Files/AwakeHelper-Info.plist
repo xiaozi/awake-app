@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en_US</string>
+	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>AppIcon</string>
+	<string></string>
 	<key>CFBundleIdentifier</key>
 	<string>com.xiaozi.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,28 +17,24 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.5</string>
+	<string>1.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.5</string>
-	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.productivity</string>
+	<string>1</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
-	<key>LSUIElement</key>
-	<true/>
 	<key>NSAppleScriptEnabled</key>
 	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2014年 xiaozi. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>OSAScriptingDefinition</key>
-	<string>Awake.sdef</string>
-	<key>SUFeedURL</key>
-	<string>http://app.tool.lu/awake/appcast.xml</string>
-	<key>SUPublicDSAKeyFile</key>
-	<string>dsa_pub.pem</string>
+	<string>scripting.sdef</string>
 </dict>
 </plist>
