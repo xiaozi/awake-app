@@ -9,3 +9,12 @@ An app for mac osx to prevent sleeping; inspired by Caffine.
 2. right click for menu
 
 "run at login" will not take effect unless you put this app in the `/Applications` directory.
+
+### apple script supported
+
+```applescript
+tell application "Awake"
+	turn on for 1
+	-- turn off
+end tell
+```

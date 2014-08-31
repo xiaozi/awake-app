@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AwakeManager.h"
 
-@interface AwakeTurnCommand : NSScriptCommand
+@interface AwakeTurnCommand : NSScriptCommand {
+	AwakeManager *awakeManager;
+}
 
 @property (assign, nonatomic, readwrite) int duration;
 - (void)performDefaultImplementation;

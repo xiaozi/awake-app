@@ -7,6 +7,7 @@
 //
 
 #import "AwakeManager.h"
+#import "AppDelegate.h"
 
 @implementation AwakeManager
 
@@ -20,11 +21,16 @@
 	}
 	return self;
 }
+
 /**
- * 关闭睡眠
+ * turn on
  */
 -(void) turnOn
 {
+	if (_timer) {
+		[_timer invalidate];
+		_timer = nil;
+	}
 	IOReturn ret;
 	ret = IOPMAssertionCreateWithName(kIOPMAssertionTypeNoDisplaySleep, kIOPMAssertionLevelOn, CFSTR("DisplaySleepOff"), &displayAssertionId);
 	if (ret == kIOReturnSuccess)
@@ -33,12 +39,36 @@
 	if (ret == kIOReturnSuccess)
 		NSLog(@"Idle sleep is off");
 	isSleepOff = YES;
+	AppDelegate *appDelegate = (AppDelegate *)[[NSApplication sharedApplication] delegate];
+	[appDelegate iconInactive];
 }
+
 /**
- * 恢复原始状态
+ * turn on for a while
+ */
+-(void) turnOn: (NSInteger) duration
+{
+	if (_timer) {
+		[_timer invalidate];
+		_timer = nil;
+	}
+	[self turnOn];
+	_timer = [NSTimer scheduledTimerWithTimeInterval:duration
+											 target:self
+										   selector:@selector(turnOff)
+										   userInfo:nil
+											repeats:NO];
+}
+
+/**
+ * turn off
  */
 -(void) turnOff
 {
+	if (_timer) {
+		[_timer invalidate];
+		_timer = nil;
+	}
 	IOReturn ret;
 	if (displayAssertionId != 0) {
 		ret = IOPMAssertionRelease(displayAssertionId);
@@ -53,6 +83,8 @@
 		idleAssertionId = 0;
 	}
 	isSleepOff = NO;
+	AppDelegate *appDelegate = (AppDelegate *)[[NSApplication sharedApplication] delegate];
+	[appDelegate iconInactive];
 }
 
 @end

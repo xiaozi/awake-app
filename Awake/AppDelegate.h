@@ -17,12 +17,12 @@
 	NSStatusItem *statusItem;
 	StatusItemView *statusView;
 	PreferencesController *preferencesController;
-	AwakeManager *awakeManager;
-	NSTimer* timer;
+
 //	AboutController *aboutController;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic) AwakeManager *awakeManager;
 
 -(IBAction)quit:(id)sender;
 
@@ -31,5 +31,9 @@
 -(IBAction)showPreferences:(id)sender;
 
 -(IBAction)awakeForWhile:(id)sender;
+
+-(void) iconActive;
+
+-(void) iconInactive;
 
 @end

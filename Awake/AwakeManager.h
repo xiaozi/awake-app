@@ -16,9 +16,12 @@
 }
 
 @property (assign) BOOL isSleepOff;
+@property (assign) NSTimer* timer;
 
 -(id)initWithSleepOff: (BOOL) sleepOff;
 -(void) turnOn;
+-(void) turnOn: (NSInteger) duration;
 -(void) turnOff;
+
 
 @end
