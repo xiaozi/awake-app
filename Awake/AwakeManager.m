@@ -40,7 +40,7 @@
 		NSLog(@"Idle sleep is off");
 	isSleepOff = YES;
 	AppDelegate *appDelegate = (AppDelegate *)[[NSApplication sharedApplication] delegate];
-	[appDelegate iconInactive];
+	[appDelegate iconActive];
 }
 
 /**

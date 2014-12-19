@@ -20,10 +20,10 @@
 	_awakeManager = [[AwakeManager alloc] initWithSleepOff: [[NSUserDefaults standardUserDefaults] boolForKey:@"isSleepOff"]];
 }
 
-- (void) applicationWillFinishLaunching:(NSNotification *)notification
-{
-	PFMoveToApplicationsFolderIfNecessary();
-}
+//- (void) applicationWillFinishLaunching:(NSNotification *)notification
+//{
+//	PFMoveToApplicationsFolderIfNecessary();
+//}
 
 -(void)awakeFromNib
 {
@@ -36,7 +36,7 @@
 	[self iconInactive];
 	[statusView setAlternateImage: [NSImage imageNamed:@"MenuIconSelected"]];
 
-	[statusView setAction: @selector(clickStatusItem:)];
+	[statusView setLeftAction: @selector(clickStatusItem:)];
 	[statusView setRightAction: @selector(rightClickStatusItem:)];
 	NSLog(@"%hhd", [_awakeManager isSleepOff]);
 	if ([[NSUserDefaults standardUserDefaults] boolForKey:@"isSleepOff"]) {

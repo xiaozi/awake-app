@@ -13,7 +13,7 @@
 	NSImage *_alternateImage;
 	NSStatusItem *_statusItem;
 	BOOL _isHighlighted;
-	SEL _action;
+	SEL _leftAction;
 	SEL _rightAction;
 	id __unsafe_unretained _target;
 }
@@ -22,8 +22,8 @@
 @property (nonatomic, strong) NSImage *image;
 @property (nonatomic, strong) NSImage *alternateImage;
 @property (nonatomic, setter = setHighlighted:) BOOL isHighlighted;
-@property (atomic) SEL action;
-@property (nonatomic) SEL rightAction;
+@property (atomic, readwrite) SEL leftAction;
+@property (atomic, readwrite) SEL rightAction;
 @property (atomic, unsafe_unretained) id target;
 
 - (id) initWithStatusItem: (NSStatusItem *) statusItem;

@@ -59,7 +59,7 @@
 
 - (void)mouseDown:(NSEvent *)theEvent
 {
-    [NSApp sendAction:_action to:_target from:self];
+    [NSApp sendAction:_leftAction to:_target from:self];
 }
 
 - (void)rightMouseDown:(NSEvent *)theEvent
