@@ -22,9 +22,9 @@
 @property (nonatomic, strong) NSImage *image;
 @property (nonatomic, strong) NSImage *alternateImage;
 @property (nonatomic, setter = setHighlighted:) BOOL isHighlighted;
-@property (nonatomic) SEL action;
+@property (atomic) SEL action;
 @property (nonatomic) SEL rightAction;
-@property (nonatomic, unsafe_unretained) id target;
+@property (atomic, unsafe_unretained) id target;
 
 - (id) initWithStatusItem: (NSStatusItem *) statusItem;
 

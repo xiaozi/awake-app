@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "AwakeManager.h"
 #import "PreferencesController.h"
+#import "PFMoveApplication.h"
 
 @implementation AppDelegate
 
@@ -17,6 +18,11 @@
 	NSDictionary *defaults = [NSDictionary dictionaryWithObject:[NSNumber numberWithBool:NO] forKey:@"isSleepOff"];
 	[[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
 	_awakeManager = [[AwakeManager alloc] initWithSleepOff: [[NSUserDefaults standardUserDefaults] boolForKey:@"isSleepOff"]];
+}
+
+- (void) applicationWillFinishLaunching:(NSNotification *)notification
+{
+	PFMoveToApplicationsFolderIfNecessary();
 }
 
 -(void)awakeFromNib
