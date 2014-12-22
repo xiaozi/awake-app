@@ -35,7 +35,7 @@
 	// [statusView setImage: [NSImage imageNamed:@"MenuIcon"]];
 	[self iconInactive];
 	[statusView setAlternateImage: [NSImage imageNamed:@"MenuIconSelected"]];
-
+	
 	[statusView setLeftAction: @selector(clickStatusItem:)];
 	[statusView setRightAction: @selector(rightClickStatusItem:)];
 	NSLog(@"%hhd", [_awakeManager isSleepOff]);
@@ -71,13 +71,13 @@
 		NSTimeInterval interval = [[[_awakeManager timer] fireDate] timeIntervalSinceNow];
 		NSUInteger seconds = (NSUInteger)round(interval);
 		intervalStr = [NSString stringWithFormat:@"%02lu:%02lu:%02lu",
-							seconds / 3600, (seconds / 60) % 60, seconds % 60];
+					   seconds / 3600, (seconds / 60) % 60, seconds % 60];
 	}
-
+	
 	[[statusMenu itemAtIndex: 0] setTitle: intervalStr];
 }
 
--(IBAction)awakeForWhile:(id)sender
+-(IBAction) awakeForWhile: (id)sender
 {
 	NSInteger minutes = [sender tag];
 	[_awakeManager turnOn: minutes * 60];
