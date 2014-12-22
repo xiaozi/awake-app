@@ -10,6 +10,10 @@ An app for mac osx to prevent sleeping; inspired by Caffine.
 
 "run at login" will not take effect unless you put this app in the `/Applications` directory.
 
+### download
+
+[https://github.com/xiaozi/Awake.app/releases](https://github.com/xiaozi/Awake.app/releases)
+
 ### apple script supported
 
 ```applescript
