@@ -1,6 +1,8 @@
 Awake.app
 =========
 
+[中文介绍](http://type.so/object-c/awake-app.html)
+
 ![screenshot](https://raw.github.com/xiaozi/Awake.app/master/screenshot.png)
 
 An app for mac osx to prevent sleeping; inspired by Caffine.
