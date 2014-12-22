@@ -20,10 +20,10 @@
 	_awakeManager = [[AwakeManager alloc] initWithSleepOff: [[NSUserDefaults standardUserDefaults] boolForKey:@"isSleepOff"]];
 }
 
-//- (void) applicationWillFinishLaunching:(NSNotification *)notification
-//{
-//	PFMoveToApplicationsFolderIfNecessary();
-//}
+- (void) applicationWillFinishLaunching:(NSNotification *)notification
+{
+	PFMoveToApplicationsFolderIfNecessary();
+}
 
 -(void)awakeFromNib
 {
