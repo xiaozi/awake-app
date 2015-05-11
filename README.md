@@ -5,7 +5,7 @@ Awake.app
 
 ![screenshot](https://raw.github.com/xiaozi/Awake.app/master/screenshot.png)
 
-An app for mac osx to prevent sleeping; inspired by Caffine.
+An app for mac osx to prevent sleeping; inspired by Caffeine.
 
 1. left click to toggle "should sleep status"
 2. right click for menu
