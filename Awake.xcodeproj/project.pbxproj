@@ -28,7 +28,6 @@
 		905F540D18B8D3A000FA952D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 905F540B18B8D3A000FA952D /* Credits.rtf */; };
 		905F541018B8D3A000FA952D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 905F540F18B8D3A000FA952D /* AppDelegate.m */; };
 		905F541318B8D3A000FA952D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905F541118B8D3A000FA952D /* MainMenu.xib */; };
-		905F541518B8D3A000FA952D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905F541418B8D3A000FA952D /* Images.xcassets */; };
 		908659701A44067D0032CBA6 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086596F1A44067D0032CBA6 /* PFMoveApplication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		908659721A4408AB0032CBA6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908659711A4408AB0032CBA6 /* Security.framework */; };
 		90B7CDE818B84A8700E057A4 /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 90B7CDE718B84A8700E057A4 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -108,7 +107,6 @@
 		905F540E18B8D3A000FA952D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		905F540F18B8D3A000FA952D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		905F541218B8D3A000FA952D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		905F541418B8D3A000FA952D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9086596E1A44067D0032CBA6 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
 		9086596F1A44067D0032CBA6 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
 		908659711A4408AB0032CBA6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -173,7 +171,6 @@
 				905F540E18B8D3A000FA952D /* AppDelegate.h */,
 				905F540F18B8D3A000FA952D /* AppDelegate.m */,
 				905F541118B8D3A000FA952D /* MainMenu.xib */,
-				905F541418B8D3A000FA952D /* Images.xcassets */,
 				905F540318B8D3A000FA952D /* Supporting Files */,
 			);
 			path = AwakeHelper;
@@ -365,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				905F540718B8D3A000FA952D /* InfoPlist.strings in Resources */,
-				905F541518B8D3A000FA952D /* Images.xcassets in Resources */,
 				905F540D18B8D3A000FA952D /* Credits.rtf in Resources */,
 				905F541318B8D3A000FA952D /* MainMenu.xib in Resources */,
 			);
@@ -501,7 +497,6 @@
 		905F542818B8D3A000FA952D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AwakeHelper/AwakeHelper-Prefix.pch";
@@ -519,7 +514,6 @@
 		905F542918B8D3A000FA952D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AwakeHelper/AwakeHelper-Prefix.pch";
@@ -602,6 +596,7 @@
 		90ECEF4418B6557F008CB457 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Awake/Awake.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -622,6 +617,7 @@
 		90ECEF4518B6557F008CB457 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Awake/Awake.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
