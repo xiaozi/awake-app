@@ -137,7 +137,6 @@
 		90ECEF2818B6557F008CB457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		90ECEF2B18B6557F008CB457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		90ECEF2D18B6557F008CB457 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		90ECEF3418B6557F008CB457 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		90F923BD18B8658F00CB47EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,7 +214,6 @@
 				90B7CDE718B84A8700E057A4 /* Sparkle.framework */,
 				905AA7C718B775980063E6F5 /* IOKit.framework */,
 				90ECEF1518B6557F008CB457 /* Cocoa.framework */,
-				90ECEF3418B6557F008CB457 /* XCTest.framework */,
 				90ECEF1718B6557F008CB457 /* Other Frameworks */,
 			);
 			name = Frameworks;

@@ -90,6 +90,7 @@
 
 -(IBAction)showAbout:(id)sender
 {
+	[NSApp activateIgnoringOtherApps:YES];
 	[NSApp orderFrontStandardAboutPanel:self];
 }
 
@@ -98,6 +99,7 @@
 	if (!preferencesController) {
 		preferencesController = [[PreferencesController alloc] initWithWindowNibName: @"Preferences"];
 	}
+	[NSApp activateIgnoringOtherApps:YES];
 	[[preferencesController window] center];
 	[preferencesController showWindow: self];
 }
