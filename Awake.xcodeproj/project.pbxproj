@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9002F50F1B10B97400248EE3 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7CDE718B84A8700E057A4 /* Sparkle.framework */; };
 		901020A718C0AD98000F26D8 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 901020A618C0AD98000F26D8 /* AppIcon.icns */; };
 		9057395218B8D4B300CDCEA5 /* AwakeHelper.app in Copy Files */ = {isa = PBXBuildFile; fileRef = 905F540018B8D3A000FA952D /* AwakeHelper.app */; };
 		9057395518B8D77D00CDCEA5 /* StartAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057395318B8D77D00CDCEA5 /* StartAtLoginController.m */; };
@@ -31,7 +32,6 @@
 		908659701A44067D0032CBA6 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086596F1A44067D0032CBA6 /* PFMoveApplication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		908659721A4408AB0032CBA6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908659711A4408AB0032CBA6 /* Security.framework */; };
 		90B7CDE818B84A8700E057A4 /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 90B7CDE718B84A8700E057A4 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		90B7CDE918B84BA500E057A4 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7CDE718B84A8700E057A4 /* Sparkle.framework */; };
 		90B7CDEB18B84E5200E057A4 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 90B7CDEA18B84E5200E057A4 /* dsa_pub.pem */; };
 		90C7689618BC91FD002FBFC2 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C7689818BC91FD002FBFC2 /* Preferences.xib */; };
 		90DD4D8819B2232E00EC0A57 /* AwakeTurnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD4D8719B2232E00EC0A57 /* AwakeTurnCommand.m */; };
@@ -156,9 +156,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9002F50F1B10B97400248EE3 /* Sparkle.framework in Frameworks */,
 				908659721A4408AB0032CBA6 /* Security.framework in Frameworks */,
 				905F53C618B8CB0D00FA952D /* ServiceManagement.framework in Frameworks */,
-				90B7CDE918B84BA500E057A4 /* Sparkle.framework in Frameworks */,
 				905AA7C818B775980063E6F5 /* IOKit.framework in Frameworks */,
 				90ECEF1618B6557F008CB457 /* Cocoa.framework in Frameworks */,
 			);
@@ -609,6 +609,7 @@
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RHStatusItemView-dgzmhladpgcllsbiczrabtzlrndz/Build/Products/Debug",
 					/Users/xiaozi/Documents/workspace/Awake/Awake,
 					/Users/xiaozi/Documents/workspace/Awake,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Awake/Awake-Prefix.pch";
@@ -627,6 +628,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RHStatusItemView-dgzmhladpgcllsbiczrabtzlrndz/Build/Products/Debug",
 					/Users/xiaozi/Documents/workspace/Awake,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Awake/Awake-Prefix.pch";
