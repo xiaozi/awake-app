@@ -14,7 +14,7 @@ An app for mac osx to prevent sleeping; inspired by Caffeine.
 
 ### download
 
-[https://github.com/xiaozi/Awake.app/releases](https://github.com/xiaozi/Awake.app/releases)
+[https://github.com/xiaozi/awake-app/releases](https://github.com/xiaozi/awake-app/releases)
 
 ### apple script supported
 
