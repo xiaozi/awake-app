@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1EC49B13-B630-467C-8A37-83A4769CFECD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Awake</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D240209A174F056EA9C0D86B39DF6E236E445BE3</key>
+		<string>git://github.com/xiaozi/Awake.app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Awake.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D240209A174F056EA9C0D86B39DF6E236E445BE3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git://github.com/xiaozi/Awake.app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D240209A174F056EA9C0D86B39DF6E236E445BE3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D240209A174F056EA9C0D86B39DF6E236E445BE3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Awake</string>
+		</dict>
+	</array>
+</dict>
+</plist>
