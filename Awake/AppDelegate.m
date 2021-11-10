@@ -27,7 +27,7 @@
 
 -(void)awakeFromNib
 {
-	statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength: 22.0];
+	statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength: NSSquareStatusItemLength];
 	[statusItem setHighlightMode:YES];
 	statusView = [[StatusItemView alloc] initWithStatusItem: statusItem];
 	[statusView setMenu: statusMenu];

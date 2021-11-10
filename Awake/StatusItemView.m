@@ -36,6 +36,7 @@
 	CGFloat itemWidth = [statusItem length];
 	CGFloat itemHeight = [[NSStatusBar systemStatusBar] thickness];
 	NSRect itemRect = NSMakeRect(0.0, 0.0, itemWidth, itemHeight);
+
 	self = [self initWithFrame:itemRect];
 	if (self != nil)
     {
@@ -94,7 +95,7 @@
 
 - (BOOL)isOpaque
 {
-    return YES;
+    return NO;
 }
 
 @end
