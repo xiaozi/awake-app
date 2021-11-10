@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C465B92273BD83100CA9CC8 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C465B91273BD83100CA9CC8 /* PFMoveApplication.m */; };
 		1CC8F24D273B9C6000EFAD4E /* MenuIconActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8F247273B9C6000EFAD4E /* MenuIconActive@2x.png */; };
 		1CC8F24E273B9C6000EFAD4E /* MenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8F248273B9C6000EFAD4E /* MenuIcon.png */; };
 		1CC8F24F273B9C6000EFAD4E /* MenuIconActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8F249273B9C6000EFAD4E /* MenuIconActive.png */; };
@@ -28,7 +29,6 @@
 		905F540D18B8D3A000FA952D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 905F540B18B8D3A000FA952D /* Credits.rtf */; };
 		905F541018B8D3A000FA952D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 905F540F18B8D3A000FA952D /* AppDelegate.m */; };
 		905F541318B8D3A000FA952D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905F541118B8D3A000FA952D /* MainMenu.xib */; };
-		908659701A44067D0032CBA6 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086596F1A44067D0032CBA6 /* PFMoveApplication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		908659721A4408AB0032CBA6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908659711A4408AB0032CBA6 /* Security.framework */; };
 		90B7CDE818B84A8700E057A4 /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 90B7CDE718B84A8700E057A4 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		90B7CDEB18B84E5200E057A4 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 90B7CDEA18B84E5200E057A4 /* dsa_pub.pem */; };
@@ -80,6 +80,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C465B90273BD83100CA9CC8 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PFMoveApplication.h; path = ../../../../Downloads/PFMoveApplication.h; sourceTree = "<group>"; };
+		1C465B91273BD83100CA9CC8 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PFMoveApplication.m; path = ../../../../Downloads/PFMoveApplication.m; sourceTree = "<group>"; };
 		1CC8F247273B9C6000EFAD4E /* MenuIconActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuIconActive@2x.png"; sourceTree = "<group>"; };
 		1CC8F248273B9C6000EFAD4E /* MenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIcon.png; sourceTree = "<group>"; };
 		1CC8F249273B9C6000EFAD4E /* MenuIconActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIconActive.png; sourceTree = "<group>"; };
@@ -107,8 +109,6 @@
 		905F540E18B8D3A000FA952D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		905F540F18B8D3A000FA952D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		905F541218B8D3A000FA952D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		9086596E1A44067D0032CBA6 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
-		9086596F1A44067D0032CBA6 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
 		908659711A4408AB0032CBA6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		90B7CDE718B84A8700E057A4 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		90B7CDEA18B84E5200E057A4 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
@@ -232,8 +232,8 @@
 		90ECEF1B18B6557F008CB457 /* Awake */ = {
 			isa = PBXGroup;
 			children = (
-				9086596E1A44067D0032CBA6 /* PFMoveApplication.h */,
-				9086596F1A44067D0032CBA6 /* PFMoveApplication.m */,
+				1C465B90273BD83100CA9CC8 /* PFMoveApplication.h */,
+				1C465B91273BD83100CA9CC8 /* PFMoveApplication.m */,
 				90DD4D8919B223D700EC0A57 /* Awake.sdef */,
 				90DD4D8619B2232E00EC0A57 /* AwakeTurnCommand.h */,
 				90DD4D8719B2232E00EC0A57 /* AwakeTurnCommand.m */,
@@ -403,12 +403,12 @@
 			files = (
 				905D282018B728AD00C3033C /* StatusItemView.m in Sources */,
 				90ECEF2918B6557F008CB457 /* AppDelegate.m in Sources */,
+				1C465B92273BD83100CA9CC8 /* PFMoveApplication.m in Sources */,
 				90ECEF2218B6557F008CB457 /* main.m in Sources */,
 				9057395518B8D77D00CDCEA5 /* StartAtLoginController.m in Sources */,
 				9057395A18B8D84A00CDCEA5 /* PreferencesController.m in Sources */,
 				905AA7C618B7707C0063E6F5 /* AwakeManager.m in Sources */,
 				90DD4D8819B2232E00EC0A57 /* AwakeTurnCommand.m in Sources */,
-				908659701A44067D0032CBA6 /* PFMoveApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

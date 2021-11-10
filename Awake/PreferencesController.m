@@ -27,7 +27,7 @@
     self = [super initWithWindow:window];
     if (self) {
         // Initialization code here.
-		loginController = [[StartAtLoginController alloc] initWithIdentifier:@"com.xiaozi.AwakeHelper"];
+		loginController = [[StartAtLoginController alloc] initWithIdentifier:@"lu.tool.AwakeHelper"];
     }
     return self;
 }

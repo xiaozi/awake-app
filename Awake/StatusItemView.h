@@ -24,7 +24,7 @@
 @property (nonatomic, setter = setHighlighted:) BOOL isHighlighted;
 @property (atomic, readwrite) SEL leftAction;
 @property (atomic, readwrite) SEL rightAction;
-@property (atomic, unsafe_unretained) id target;
+// @property (atomic, unsafe_unretained) id target;
 
 - (id) initWithStatusItem: (NSStatusItem *) statusItem;
 
